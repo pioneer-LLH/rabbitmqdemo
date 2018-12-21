@@ -36,11 +36,11 @@
             <scope>test</scope>
         </dependency>
         <!--默认pom END-->
-        <!--rabbit start-->
+        <!--rabbit start  20181221根据github安全漏洞提示进行修改-->
         <dependency>
             <groupId>com.rabbitmq</groupId>
             <artifactId>amqp-client</artifactId>
-            <version>4.1.0</version>
+            <version>[4.8.0,)</version>
         </dependency>
         <!--rabbit END-->
     </dependencies>
